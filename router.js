@@ -32,10 +32,11 @@ export default function useRoute(isAuth) {
   return (
     <MainTab.Navigator
       initialRouteName="Home"
-      tabBarOptions={{ showLabel: false }}
       activeColor="#FF6C00"
       screenOptions={{
+        showLabel: false,
         tabBarStyle: {
+          display: 'flex',
           height: 83,
           paddingHorizontal: 81,
         },
